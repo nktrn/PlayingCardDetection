@@ -4,7 +4,7 @@ from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Flatten, Dense, GlobalAveragePooling2D
 
-from models.tools import imagepreprocess, labelprocess
+from pcd.models.tools import imagepreprocess, labelprocess
 
 
 class CardModel:

@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content -%}
+{{ super() }}
+<br>
+<img id="picture" src="data:image/jpeg;base64,{{ img_data }}">
+{% endblock -%}
+

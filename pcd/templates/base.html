@@ -1,0 +1,17 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Playing card detection</title>
+</head>
+
+<body>
+{% block content -%}
+<h1>Upload new Image</h1>
+<form method=post enctype=multipart/form-data>
+    <input type=file name=image>
+    <input type=submit value=Predict>
+</form>
+{% endblock -%}
+</body>
+</html>

@@ -2,7 +2,8 @@ from tensorflow import keras
 from keras import Model
 from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Input
 
-from models.tools import *
+from pcd.models.tools import *
+
 
 class CornerModel:
     def __init__(self, alpha, init_alpha, stop):
