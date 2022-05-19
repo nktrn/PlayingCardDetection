@@ -1,4 +1,3 @@
-import cv2
 from flask import request, render_template, redirect
 
 from pcd import app
